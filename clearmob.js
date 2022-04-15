@@ -1,7 +1,7 @@
 function clearm() {
-    mc.runcmd('tellraw @a {"rawtext" :[{"text" :"§aОчистка мобов и предметов через §c1§3 минуту"}]}');
+        mc.runcmd('tellraw @a {"rawtext" :[{"text" :"§aОчистка мобов и предметов через §c1§3 минуту"}]}');
 	mc.runcmd('playsound mob.irongolem.death @a');
-    setTimeout("mc.broadcast('§aОчистка мобов и предметов через §43')",60000);
+        setTimeout("mc.broadcast('§aОчистка мобов и предметов через §43')",60000);
 	setTimeout("mc.runcmd('playsound note.banjo @a')",60000);
 	setTimeout("mc.runcmd('title @a actionbar §l§c12§33')",60000);
 	setTimeout("mc.broadcast('§aОчистка мобов и предметов через §42')",62000);
