@@ -15,7 +15,7 @@ setTimeout("mc.runcmd('clearmob')",65000);
 setTimeout("mc.broadcast('§eУдаление мобов прошло успешно!')",66000);
 };
 function clearmob() {
-mc.runcmd('tp @e[type=!player,type=!armor_stand,type=!Boat,type=!bee,type=!Chest_minecart,type=!Elder_guardian,type=!Ender_crystal,type=!Ender_dragon,type=!Endermite,type=!Ender_pearl,type=!Evocation_illager,type=!Hopper_minecart,type=!Iron_golem,type=!Leash_knot,type=!Lightning_bolt,type=!Minecart,type=!Painting,type=!Shulker,type=!Skeleton_horse,type=!horse,type=!Snow_golem,type=!Splash_potion,type=!Thrown_trident,type=!Tnt,type=!Tnt_minecart,type=!Turtle,type=!Villager,type=!Villager_V2,type=!Vindicator,type=!Wither,type=!Strider,type=!wolf,type=!axolotl,type=!mule,type=!donkey,name=""] ~ ~-70 ~')
+mc.runcmd('execute @a ~~~ tp @e[type=!player,type=!armor_stand,type=!Boat,type=!bee,type=!Chest_minecart,type=!Elder_guardian,type=!Ender_crystal,type=!Ender_dragon,type=!Endermite,type=!Ender_pearl,type=!Evocation_illager,type=!Hopper_minecart,type=!Iron_golem,type=!Leash_knot,type=!Lightning_bolt,type=!Minecart,type=!Painting,type=!Shulker,type=!Skeleton_horse,type=!horse,type=!Snow_golem,type=!Splash_potion,type=!Thrown_trident,type=!Tnt,type=!Tnt_minecart,type=!Turtle,type=!Villager,type=!Villager_V2,type=!Vindicator,type=!Wither,type=!Strider,type=!wolf,type=!axolotl,type=!mule,type=!donkey,name=""] ~ ~-70 ~')
 };
 setInterval(function(){
 mc.runcmdEx("clearm")
